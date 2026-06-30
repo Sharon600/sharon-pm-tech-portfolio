@@ -1,0 +1,10 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "Local SQLite Portfolio",
+            "driver": "SQLite",
+            "database": "${workspaceFolder}/portfolio.db"
+        }
+    ]
+}
