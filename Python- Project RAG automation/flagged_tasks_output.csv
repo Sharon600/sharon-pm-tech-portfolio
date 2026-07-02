@@ -1,0 +1,101 @@
+task_id,task_name,site_name,owner,days_overdue,rag
+101,Regulatory Submission,Chennai Site,Neha,0,Green
+102,Database Lock,Bangalore Site,Amit,19,Red
+103,Regulatory Submission,Kolkata Site,Sharon,-14,Green
+104,Regulatory Submission,Hyderabad Site,Rahul,17,Red
+105,Data Review,Chennai Site,Sneha,-3,Green
+106,Site Closeout,Kolkata Site,Rahul,13,Red
+107,Data Review,Delhi Site,Sharon,-5,Green
+108,Vendor Qualification,Pune Site,Neha,-6,Green
+109,Database Lock,Pune Site,Amit,-10,Green
+110,Vendor Qualification,Mumbai Site,Kiran,7,Amber
+111,Data Review,Delhi Site,Sharon,14,Red
+112,Site Closeout,Mumbai Site,Ananya,-10,Green
+113,Site Closeout,Delhi Site,Arjun,8,Red
+114,Data Review,Hyderabad Site,Amit,-13,Green
+115,Database Lock,Delhi Site,Amit,-1,Green
+116,Regulatory Submission,Kolkata Site,Neha,14,Red
+117,Final Study Report,Bangalore Site,Kiran,7,Amber
+118,Database Lock,Delhi Site,Amit,-5,Green
+119,Site Closeout,Hyderabad Site,Priya,14,Red
+120,Vendor Qualification,Delhi Site,Sneha,-1,Green
+121,Final Study Report,Chennai Site,Rahul,-13,Green
+122,Final Study Report,Kolkata Site,Neha,-11,Green
+123,Database Lock,Pune Site,Rahul,16,Red
+124,Vendor Qualification,Ahmedabad Site,Priya,1,Amber
+125,Patient Recruitment,Hyderabad Site,Sneha,19,Red
+126,Monitoring Visit,Kolkata Site,Arjun,10,Red
+127,Final Study Report,Hyderabad Site,Priya,17,Red
+128,Protocol Amendment,Mumbai Site,Sharon,-8,Green
+129,Patient Recruitment,Bangalore Site,Ananya,-11,Green
+130,Vendor Qualification,Kolkata Site,Arjun,14,Red
+131,Site Closeout,Delhi Site,Sneha,-15,Green
+132,Regulatory Submission,Delhi Site,Kiran,-8,Green
+133,Monitoring Visit,Kolkata Site,Priya,14,Red
+134,Site Activation,Delhi Site,Sneha,-4,Green
+135,Site Closeout,Mumbai Site,Neha,17,Red
+136,Data Review,Hyderabad Site,Priya,8,Red
+137,Patient Recruitment,Chennai Site,Arjun,5,Amber
+138,Protocol Amendment,Chennai Site,Amit,8,Red
+139,Monitoring Visit,Hyderabad Site,Sharon,0,Green
+140,Data Review,Mumbai Site,Amit,16,Red
+141,Regulatory Submission,Bangalore Site,Priya,15,Red
+142,Site Closeout,Bangalore Site,Neha,18,Red
+143,Data Review,Kolkata Site,Rahul,19,Red
+144,Database Lock,Delhi Site,Ananya,8,Red
+145,Protocol Amendment,Ahmedabad Site,Amit,0,Green
+146,Database Lock,Mumbai Site,Kiran,-14,Green
+147,Data Review,Hyderabad Site,Arjun,-1,Green
+148,Site Activation,Mumbai Site,Sharon,-1,Green
+149,Regulatory Submission,Chennai Site,Kiran,-11,Green
+150,Site Closeout,Hyderabad Site,Neha,16,Red
+151,Database Lock,Bangalore Site,Arjun,15,Red
+152,Database Lock,Ahmedabad Site,Ananya,-3,Green
+153,Regulatory Submission,Mumbai Site,Ananya,7,Amber
+154,Vendor Qualification,Kolkata Site,Vikram,-12,Green
+155,Regulatory Submission,Chennai Site,Ananya,6,Amber
+156,Regulatory Submission,Hyderabad Site,Rahul,-3,Green
+157,Site Closeout,Ahmedabad Site,Priya,12,Red
+158,Patient Recruitment,Delhi Site,Vikram,0,Green
+159,Regulatory Submission,Ahmedabad Site,Sneha,-9,Green
+160,Site Activation,Chennai Site,Amit,0,Green
+161,Patient Recruitment,Kolkata Site,Vikram,15,Red
+162,Database Lock,Kolkata Site,Sharon,-5,Green
+163,Vendor Qualification,Chennai Site,Ananya,1,Amber
+164,Protocol Amendment,Delhi Site,Ananya,20,Red
+165,Protocol Amendment,Bangalore Site,Rahul,3,Amber
+166,Database Lock,Chennai Site,Arjun,19,Red
+167,Site Activation,Pune Site,Sharon,-12,Green
+168,Data Review,Ahmedabad Site,Sneha,18,Red
+169,Patient Recruitment,Chennai Site,Sneha,-10,Green
+170,Patient Recruitment,Mumbai Site,Arjun,-11,Green
+171,Database Lock,Kolkata Site,Amit,0,Green
+172,Data Review,Chennai Site,Arjun,-10,Green
+173,Vendor Qualification,Pune Site,Neha,-2,Green
+174,Final Study Report,Hyderabad Site,Neha,10,Red
+175,Patient Recruitment,Delhi Site,Vikram,5,Amber
+176,Regulatory Submission,Chennai Site,Vikram,-9,Green
+177,Regulatory Submission,Hyderabad Site,Sneha,1,Amber
+178,Patient Recruitment,Pune Site,Amit,0,Green
+179,Final Study Report,Delhi Site,Priya,13,Red
+180,Site Closeout,Delhi Site,Arjun,18,Red
+181,Site Activation,Delhi Site,Amit,-7,Green
+182,Monitoring Visit,Mumbai Site,Amit,20,Red
+183,Patient Recruitment,Delhi Site,Neha,-2,Green
+184,Final Study Report,Hyderabad Site,Neha,17,Red
+185,Protocol Amendment,Delhi Site,Sharon,-10,Green
+186,Vendor Qualification,Delhi Site,Sharon,-15,Green
+187,Final Study Report,Bangalore Site,Neha,-5,Green
+188,Protocol Amendment,Kolkata Site,Sneha,-15,Green
+189,Regulatory Submission,Mumbai Site,Priya,19,Red
+190,Site Activation,Pune Site,Arjun,20,Red
+191,Patient Recruitment,Kolkata Site,Priya,-13,Green
+192,Monitoring Visit,Pune Site,Sharon,7,Amber
+193,Database Lock,Hyderabad Site,Amit,7,Amber
+194,Site Closeout,Kolkata Site,Arjun,-6,Green
+195,Database Lock,Bangalore Site,Priya,11,Red
+196,Site Activation,Bangalore Site,Kiran,11,Red
+197,Database Lock,Delhi Site,Priya,-9,Green
+198,Vendor Qualification,Chennai Site,Vikram,-1,Green
+199,Database Lock,Ahmedabad Site,Kiran,4,Amber
+200,Database Lock,Hyderabad Site,Sharon,-3,Green
