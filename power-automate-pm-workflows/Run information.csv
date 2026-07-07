@@ -1,0 +1,1216 @@
+﻿sep=,
+"Run start time","Run end time","Run ID","Run status","Run error message","Run link","Trigger status","Trigger method","Trigger input","Trigger output","Trigger start time","Trigger end time","Compose - status","Compose - method","Compose - input","Compose - output","Compose - start time","Compose - end time","Initialize_variable_-_email_body - status","Initialize_variable_-_email_body - method","Initialize_variable_-_email_body - input","Initialize_variable_-_email_body - output","Initialize_variable_-_email_body - start time","Initialize_variable_-_email_body - end time","Send_an_email_(V2) - status","Send_an_email_(V2) - method","Send_an_email_(V2) - input","Send_an_email_(V2) - output","Send_an_email_(V2) - start time","Send_an_email_(V2) - end time","Compose_StringWeek - status","Compose_StringWeek - method","Compose_StringWeek - input","Compose_StringWeek - output","Compose_StringWeek - start time","Compose_StringWeek - end time","Filter_array - status","Filter_array - method","Filter_array - input","Filter_array - output","Filter_array - start time","Filter_array - end time","ComposeMonday - status","ComposeMonday - method","ComposeMonday - input","ComposeMonday - output","ComposeMonday - start time","ComposeMonday - end time","Compose_Friday - status","Compose_Friday - method","Compose_Friday - input","Compose_Friday - output","Compose_Friday - start time","Compose_Friday - end time","Get_file_content - status","Get_file_content - method","Get_file_content - input","Get_file_content - output","Get_file_content - start time","Get_file_content - end time","List_rows_present_in_a_table - status","List_rows_present_in_a_table - method","List_rows_present_in_a_table - input","List_rows_present_in_a_table - output","List_rows_present_in_a_table - start time","List_rows_present_in_a_table - end time","Get_file_content__etraining - status","Get_file_content__etraining - method","Get_file_content__etraining - input","Get_file_content__etraining - output","Get_file_content__etraining - start time","Get_file_content__etraining - end time","Append_to_string_variable - status","Append_to_string_variable - method","Append_to_string_variable - input","Append_to_string_variable - output","Append_to_string_variable - start time","Append_to_string_variable - end time"
+"07/07/2026 11:25:45","07/07/2026 11:25:49","08584181833406821600417312951CU166","Succeeded","","https://make.powerautomate.com/environments/Default-5989ece0-f90e-40bf-9c79-1a7beccdb861/flows/fdac01be-1bba-4474-9c28-0fcc333e067c/runs/08584181833406821600417312951CU166","Succeeded",,"","","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"1","1","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"{
+  ""variables"": [
+    {
+      ""name"": ""EmailBody"",
+      ""type"": ""String""
+    }
+  ]
+}","","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""no-store, no-cache"",
+    ""Pragma"": ""no-cache"",
+    ""Strict-Transport-Security"": ""max-age=31536000; includeSubDomains"",
+    ""x-ms-islandgateway"": ""_prdil105wusgb0_3"",
+    ""x-ms-igw-tracking-id"": ""44453aa9-dd1d-4b97-8c38-36e0d273b74520260707112549_prdil105wusgb0_3"",
+    ""mise-correlation-id"": ""15739354-1903-4e50-99e0-58740ec37f87"",
+    ""x-ms-request-id"": ""48b3652a-fdaf-e6b8-e635-dc07f202d949"",
+    ""x-ms-correlation-id"": ""e642f16c-20ca-41eb-a5b0-7d2f841ac268"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-Frame-Options"": ""DENY"",
+    ""Server-Timing"": ""x-ms-igw-upstream-headers;dur=249.9,x-ms-igw-req-overhead;dur=0.9"",
+    ""x-ms-service-request-id"": ""44453aa9-dd1d-4b97-8c38-36e0d273b745"",
+    ""x-ms-activity-vector"": ""00.00.IN.07.IN.0F.IN.07.00"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""SendEmailV2|False|2026-07-05T03:27:33.4788709+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""x-ms-plex-failed"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:25:48 GMT"",
+    ""Content-Length"": ""0"",
+    ""Expires"": ""-1""
+  }
+}","07/07/2026 11:25:48","07/07/2026 11:25:49","Succeeded",,"1","1","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"[
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""d859c143-ee18-42be-8e83-ccc0c3697c50"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.wikipedia.org/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""8a108789-e269-484a-9981-de0d73f6d72f"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.bbc.com/news""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""cfe5bdc6-00a6-43b0-aa11-21abe4947f36"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.reddit.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""31f6b712-1399-488a-8d7c-abd9e7bc3704"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.amazon.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""97d6eb35-c45c-43d3-9926-be8f110b5f0b"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+    ""LinkName"": ""Expense Reports"",
+    ""LinkURL"": ""https://www.youtube.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""5cf9cc3f-a7b9-45da-bd2c-7c44b174a3c0"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+    ""LinkName"": """",
+    ""LinkURL"": """"
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""6b04ce2f-037c-4cd9-b726-76a85197d35b"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.medium.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""2fc5c1e7-77e6-4ee3-aeea-978a6167e64c"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.stackoverflow.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""a68125ad-7e65-4d68-912b-ce0ededcfd87"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.weather.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""9746158d-2f32-479f-aebd-1a8026d19382"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.nytimes.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""89514386-37c4-4d12-a004-b93f1c83e409"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: Budget submission in Finance tool by EOB Tuesday"",
+    ""LinkName"": ""Finance Manager"",
+    ""LinkURL"": ""https://www.spotify.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""e81ee205-52e5-435e-94e9-67ba7de69739"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.netflix.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""4b822105-7557-4a7d-9952-c3c2841cd476"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.ebay.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""0ebbb826-dffa-4e3e-835f-12e23c60ca73"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.pinterest.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""1c538da8-aea8-4854-85fb-dcfed7d2f878"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.twitter.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""1a5c3a6c-f2a5-4532-a7f2-d7c2f261a1b6"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.instagram.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""caf51364-deb0-459c-9447-31f4813933ef"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.imdb.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""3433ab1c-4f5e-45c4-b4e1-e75c917e2589"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.cnn.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""bb355d37-423a-43bb-a9d6-3fd7d0e2c483"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.forbes.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""91fbfb01-ae74-4cbe-baf7-aef8f63702f4"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""Analytics dashboard update - report will be shared for any discrepancies"",
+    ""LinkName"": ""Analytics Dashboard"",
+    ""LinkURL"": ""https://www.nationalgeographic.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""56a96dd2-898d-4a8d-8d3a-e206821ec196"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""Monthly report review"",
+    ""LinkName"": ""Monthly Reports"",
+    ""LinkURL"": ""https://www.booking.com/""
+  }
+]","{
+  ""body"": [
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""d859c143-ee18-42be-8e83-ccc0c3697c50"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+      ""LinkName"": ""Project Issues Tracker"",
+      ""LinkURL"": ""https://www.wikipedia.org/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""8a108789-e269-484a-9981-de0d73f6d72f"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+      ""LinkName"": ""Document Filing Portal"",
+      ""LinkURL"": ""https://www.bbc.com/news""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""cfe5bdc6-00a6-43b0-aa11-21abe4947f36"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+      ""LinkName"": ""Document Management Portal"",
+      ""LinkURL"": ""https://www.reddit.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""31f6b712-1399-488a-8d7c-abd9e7bc3704"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+      ""LinkName"": ""Internal Repository"",
+      ""LinkURL"": ""https://www.amazon.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""97d6eb35-c45c-43d3-9926-be8f110b5f0b"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+      ""LinkName"": ""Expense Reports"",
+      ""LinkURL"": ""https://www.youtube.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""5cf9cc3f-a7b9-45da-bd2c-7c44b174a3c0"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+      ""LinkName"": """",
+      ""LinkURL"": """"
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""56a96dd2-898d-4a8d-8d3a-e206821ec196"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""Monthly report review"",
+      ""LinkName"": ""Monthly Reports"",
+      ""LinkURL"": ""https://www.booking.com/""
+    }
+  ]
+}","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"2026-07-06T11:25:48.1254260Z","2026-07-06T11:25:48.1254260Z","07/07/2026 11:25:48","07/07/2026 11:25:48","Succeeded",,"2026-07-10T11:25:48.1254260Z","2026-07-10T11:25:48.1254260Z","07/07/2026 11:25:48","07/07/2026 11:25:48","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/sharepointonline"",
+    ""connectionReferenceName"": ""shared_sharepointonline"",
+    ""operationId"": ""GetFileContent""
+  },
+  ""parameters"": {
+    ""dataset"": ""https://quintiles.sharepoint.com/sites/HAB75709"",
+    ""id"": ""%252fInternal%2buse%252f01%2bProject%2bManagement%252f01.11%2bTMF%2bReporting%252fProject_name_eTMF%2bFiling%2bGuideline_v3.0_29JAN2026%2b(2).xlsx"",
+    ""inferContentType"": true
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""max-age=0, private"",
+    ""Vary"": ""Origin"",
+    ""X-NetworkStatistics"": ""0,16776960,1,566,12706857,16775936,16775936,62897"",
+    ""X-SharePointHealthScore"": ""3"",
+    ""X-MS-SPConnector"": ""1"",
+    ""X-SP-SERVERSTATE"": ""ReadOnly=0"",
+    ""DATASERVICEVERSION"": ""3.0"",
+    ""SPClientServiceRequestDuration"": ""139"",
+    ""IsOCDI"": ""0"",
+    ""X-DataBoundary"": ""NONE"",
+    ""X-1DSCollectorUrl"": ""https://mobile.events.data.microsoft.com/OneCollector/1.0/"",
+    ""X-AriaCollectorURL"": ""https://browser.pipe.aria.microsoft.com/Collector/3.0/"",
+    ""SPRequestGuid"": ""7ce4d11c-bdf3-459a-bd54-74cc0d573110"",
+    ""request-id"": ""7ce4d11c-bdf3-459a-bd54-74cc0d573110"",
+    ""MS-CV"": ""oiToCTQgABDdsmw5Ba22Wg.0"",
+    ""SPLogId"": ""09e824a2-2034-1000-ddb2-6c3905adb65a"",
+    ""Alt-Svc"": ""h3=\"":443\"""",
+    ""Strict-Transport-Security"": ""max-age=31536000"",
+    ""X-Frame-Options"": ""SAMEORIGIN"",
+    ""Content-Security-Policy"": ""frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com teams.cloud.microsoft *.office365.com goals.cloud.microsoft *.powerapps.com *.powerbi.com *.yammer.com engage.cloud.microsoft word.cloud.microsoft excel.cloud.microsoft powerpoint.cloud.microsoft *.officeapps.live.com *.office.com *.microsoft365.com m365.cloud.microsoft *.cloud.microsoft *.stream.azure-test.net *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com teams.microsoft.com *.teams.microsoft.com securebroker.sharepointonline.com;"",
+    ""MicrosoftSharePointTeamServices"": ""16.0.0.27424"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-MS-InvokeApp"": ""1; RequireReadOnly"",
+    ""X-Cache"": ""CONFIG_NOCACHE"",
+    ""X-MSEdge-Ref"": ""Ref A: 73F8EBAD96204A05A469D67B81324C76 Ref B: BY1AA1072315052 Ref C: 2026-07-07T11:25:48Z"",
+    ""P3P"": ""CP=\""ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"""",
+    ""X-AspNet-Version"": ""4.0.30319"",
+    ""X-Powered-By"": ""ASP.NET"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getfilecontent|False|2026-07-05T03:27:33.5257536+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:25:48 GMT"",
+    ""Content-Length"": ""202570"",
+    ""Content-Type"": ""application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"",
+    ""Expires"": ""Mon, 22 Jun 2026 11:25:48 GMT"",
+    ""Last-Modified"": ""Tue, 07 Jul 2026 11:25:48 GMT""
+  },
+  ""bodyContentLink"": {
+    ""uri"": ""https://prod-103.westus.logic.azure.com:443/workflows/60fce9efe6374e67a2189335aa2338ba/runs/08584181833406821600417312951CU166/actions/Get_file_content/contents/ActionOutputsBody?api-version=2017-07-01&se=2026-07-07T15%3A00%3A00.0000000Z&sp=%2Fruns%2F08584181833406821600417312951CU166%2Factions%2FGet_file_content%2Fcontents%2FActionOutputsBody%2Fread&sv=1.0&sig=b3B3x6OEYXbKdJ1E4hleaaniDl0q6WiXfNaMI6G1DWM"",
+    ""contentSize"": 270198
+  }
+}","07/07/2026 11:25:48","07/07/2026 11:25:48","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/excelonlinebusiness"",
+    ""connectionReferenceName"": ""shared_excelonlinebusiness-1"",
+    ""operationId"": ""GetItems""
+  },
+  ""parameters"": {
+    ""source"": ""me"",
+    ""drive"": ""b!4nirlhTr_0-lz5OZrpA922Dm5dsAJshEvr1IZS1m963uuLjsL89jRLVKVwANl8D5"",
+    ""file"": ""01FOFINRP5NU5WDOXQTVBI5IZ2PNP65Z7B"",
+    ""table"": ""{CFAE9363-AF83-47F5-948A-BEC30E1A269E}""
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""no-store, no-cache"",
+    ""Pragma"": ""no-cache"",
+    ""Transfer-Encoding"": ""chunked"",
+    ""Vary"": ""Accept-Encoding"",
+    ""Strict-Transport-Security"": ""max-age=31536000; includeSubDomains"",
+    ""x-ms-request-id"": ""11262c69-6454-43c0-85a4-e20b3ba4508b;18678a90-c968-4c23-a15a-98262d7f711a;9f623506-e222-4bd1-b452-1229a7e9c372;61e6bc0c-c6fe-46ba-9dfc-2db4f7083702"",
+    ""OData-Version"": ""4.0"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-Frame-Options"": ""DENY"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getitems|False|2026-07-05T03:27:33.8068251+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:25:45 GMT"",
+    ""Content-Type"": ""application/json; odata.metadata=minimal; odata.streaming=true"",
+    ""Expires"": ""-1"",
+    ""Content-Length"": ""7652""
+  },
+  ""body"": {
+    ""@odata.context"": ""https://excelonline-cus.azconn-cus-001.p.azurewebsites.net/$metadata#drives('b%214nirlhTr_0-lz5OZrpA922Dm5dsAJshEvr1IZS1m963uuLjsL89jRLVKVwANl8D5')/Files('01FOFINRP5NU5WDOXQTVBI5IZ2PNP65Z7B')/Tables('%7BCFAE9363-AF83-47F5-948A-BEC30E1A269E%7D')/items"",
+    ""value"": [
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""d859c143-ee18-42be-8e83-ccc0c3697c50"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.wikipedia.org/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""8a108789-e269-484a-9981-de0d73f6d72f"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.bbc.com/news""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""cfe5bdc6-00a6-43b0-aa11-21abe4947f36"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.reddit.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""31f6b712-1399-488a-8d7c-abd9e7bc3704"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.amazon.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""97d6eb35-c45c-43d3-9926-be8f110b5f0b"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+        ""LinkName"": ""Expense Reports"",
+        ""LinkURL"": ""https://www.youtube.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""5cf9cc3f-a7b9-45da-bd2c-7c44b174a3c0"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+        ""LinkName"": """",
+        ""LinkURL"": """"
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""6b04ce2f-037c-4cd9-b726-76a85197d35b"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.medium.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""2fc5c1e7-77e6-4ee3-aeea-978a6167e64c"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.stackoverflow.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""a68125ad-7e65-4d68-912b-ce0ededcfd87"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.weather.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""9746158d-2f32-479f-aebd-1a8026d19382"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.nytimes.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""89514386-37c4-4d12-a004-b93f1c83e409"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: Budget submission in Finance tool by EOB Tuesday"",
+        ""LinkName"": ""Finance Manager"",
+        ""LinkURL"": ""https://www.spotify.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""e81ee205-52e5-435e-94e9-67ba7de69739"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.netflix.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""4b822105-7557-4a7d-9952-c3c2841cd476"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.ebay.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""0ebbb826-dffa-4e3e-835f-12e23c60ca73"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.pinterest.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""1c538da8-aea8-4854-85fb-dcfed7d2f878"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.twitter.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""1a5c3a6c-f2a5-4532-a7f2-d7c2f261a1b6"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.instagram.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""caf51364-deb0-459c-9447-31f4813933ef"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.imdb.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""3433ab1c-4f5e-45c4-b4e1-e75c917e2589"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.cnn.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""bb355d37-423a-43bb-a9d6-3fd7d0e2c483"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.forbes.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""91fbfb01-ae74-4cbe-baf7-aef8f63702f4"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""Analytics dashboard update - report will be shared for any discrepancies"",
+        ""LinkName"": ""Analytics Dashboard"",
+        ""LinkURL"": ""https://www.nationalgeographic.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""56a96dd2-898d-4a8d-8d3a-e206821ec196"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""Monthly report review"",
+        ""LinkName"": ""Monthly Reports"",
+        ""LinkURL"": ""https://www.booking.com/""
+      }
+    ]
+  }
+}","07/07/2026 11:25:45","07/07/2026 11:25:45","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/sharepointonline"",
+    ""connectionReferenceName"": ""shared_sharepointonline"",
+    ""operationId"": ""GetFileContent""
+  },
+  ""parameters"": {
+    ""dataset"": ""https://quintiles.sharepoint.com/sites/HAB75709"",
+    ""id"": ""%252fInternal%2buse%252f01%2bProject%2bManagement%252f01.10%2beTraining%2bCompliance%252fReporting%252fProject_nameeTraining_Compliance_Report_July2026.xlsx"",
+    ""inferContentType"": true
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""max-age=0, private"",
+    ""Vary"": ""Origin"",
+    ""X-NetworkStatistics"": ""2,16776960,983,1139,23987158,14377652,14377652,62935"",
+    ""X-SharePointHealthScore"": ""0"",
+    ""X-MS-SPConnector"": ""1"",
+    ""X-SP-SERVERSTATE"": ""ReadOnly=0"",
+    ""DATASERVICEVERSION"": ""3.0"",
+    ""SPClientServiceRequestDuration"": ""145"",
+    ""IsOCDI"": ""0"",
+    ""X-DataBoundary"": ""NONE"",
+    ""X-1DSCollectorUrl"": ""https://mobile.events.data.microsoft.com/OneCollector/1.0/"",
+    ""X-AriaCollectorURL"": ""https://browser.pipe.aria.microsoft.com/Collector/3.0/"",
+    ""SPRequestGuid"": ""34933fb5-b04f-4fa6-b957-63321ff0900c"",
+    ""request-id"": ""34933fb5-b04f-4fa6-b957-63321ff0900c"",
+    ""MS-CV"": ""oiToCUgQABDkZZhChJF3Zw.0"",
+    ""SPLogId"": ""09e824a2-1048-1000-e465-984284917767"",
+    ""Alt-Svc"": ""h3=\"":443\"""",
+    ""Strict-Transport-Security"": ""max-age=31536000"",
+    ""X-Frame-Options"": ""SAMEORIGIN"",
+    ""Content-Security-Policy"": ""frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com teams.cloud.microsoft *.office365.com goals.cloud.microsoft *.powerapps.com *.powerbi.com *.yammer.com engage.cloud.microsoft word.cloud.microsoft excel.cloud.microsoft powerpoint.cloud.microsoft *.officeapps.live.com *.office.com *.microsoft365.com m365.cloud.microsoft *.cloud.microsoft *.stream.azure-test.net *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com teams.microsoft.com *.teams.microsoft.com securebroker.sharepointonline.com;"",
+    ""MicrosoftSharePointTeamServices"": ""16.0.0.27424"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-MS-InvokeApp"": ""1; RequireReadOnly"",
+    ""X-Cache"": ""CONFIG_NOCACHE"",
+    ""X-MSEdge-Ref"": ""Ref A: 97E312921FB6426CB2DBEF72C20B6EBA Ref B: BY1AA1072317042 Ref C: 2026-07-07T11:25:48Z"",
+    ""P3P"": ""CP=\""ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"""",
+    ""X-AspNet-Version"": ""4.0.30319"",
+    ""X-Powered-By"": ""ASP.NET"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getfilecontent|False|2026-07-05T03:27:33.5257536+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""true"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:25:48 GMT"",
+    ""Content-Length"": ""39662"",
+    ""Content-Type"": ""application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"",
+    ""Expires"": ""Mon, 22 Jun 2026 11:25:48 GMT"",
+    ""Last-Modified"": ""Tue, 07 Jul 2026 11:25:48 GMT""
+  },
+  ""bodyContentLink"": {
+    ""uri"": ""https://prod-103.westus.logic.azure.com:443/workflows/60fce9efe6374e67a2189335aa2338ba/runs/08584181833406821600417312951CU166/actions/Get_file_content__etraining/contents/ActionOutputsBody?api-version=2017-07-01&se=2026-07-07T15%3A00%3A00.0000000Z&sp=%2Fruns%2F08584181833406821600417312951CU166%2Factions%2FGet_file_content__etraining%2Fcontents%2FActionOutputsBody%2Fread&sv=1.0&sig=EoxJaL7wrpeMhiojn9uX6mXr88x43rnVS1isAodBCrY"",
+    ""contentSize"": 52986
+  }
+}","07/07/2026 11:25:48","07/07/2026 11:25:48","Succeeded",,"","","07/07/2026 11:25:48","07/07/2026 11:25:48"
+"07/07/2026 11:16:13","07/07/2026 11:16:19","08584181839119486666463294689CU169","Succeeded","","https://make.powerautomate.com/environments/Default-5989ece0-f90e-40bf-9c79-1a7beccdb861/flows/fdac01be-1bba-4474-9c28-0fcc333e067c/runs/08584181839119486666463294689CU169","Succeeded",,"","","07/07/2026 11:16:13","07/07/2026 11:16:13","Succeeded",,"1","1","07/07/2026 11:16:14","07/07/2026 11:16:14","Succeeded",,"{
+  ""variables"": [
+    {
+      ""name"": ""EmailBody"",
+      ""type"": ""String""
+    }
+  ]
+}","","07/07/2026 11:16:14","07/07/2026 11:16:14","Succeeded",,"","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""no-store, no-cache"",
+    ""Pragma"": ""no-cache"",
+    ""Strict-Transport-Security"": ""max-age=31536000; includeSubDomains"",
+    ""x-ms-islandgateway"": ""_prdil102wusgb0_2"",
+    ""x-ms-igw-tracking-id"": ""f8a5248a-ee51-414e-ad3a-b634c5d15e7420260707111619_prdil102wusgb0_2"",
+    ""mise-correlation-id"": ""d2687fdc-3a81-461a-9a2c-f9d8e23b4f53"",
+    ""x-ms-request-id"": ""264d8d1f-6747-7559-4c85-a70d6cbcfa7a"",
+    ""x-ms-correlation-id"": ""38582da5-d04c-4711-8127-0389114c692a"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-Frame-Options"": ""DENY"",
+    ""Server-Timing"": ""x-ms-igw-upstream-headers;dur=211.4,x-ms-igw-req-overhead;dur=0.9"",
+    ""x-ms-service-request-id"": ""f8a5248a-ee51-414e-ad3a-b634c5d15e74"",
+    ""x-ms-activity-vector"": ""00.00.IN.1T.IN.05.IN.1Q.00"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""SendEmailV2|False|2026-07-05T03:27:33.4788709+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""x-ms-plex-failed"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:16:19 GMT"",
+    ""Content-Length"": ""0"",
+    ""Expires"": ""-1""
+  }
+}","07/07/2026 11:16:18","07/07/2026 11:16:19","Succeeded",,"1","1","07/07/2026 11:16:14","07/07/2026 11:16:14","Succeeded",,"[
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""b47de9ca-b693-4dea-aa35-63d63f280f52"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.wikipedia.org/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""5193bfc4-98f6-441c-a3aa-2a0898791406"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.bbc.com/news""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""62b7f010-8c93-41be-b936-fb1aa17c0d29"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.reddit.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""02fc2010-3ef9-4d2a-9f61-d12c56f7c935"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.amazon.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""3d697ea9-8551-415b-83df-3365de70646a"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+    ""LinkName"": ""Expense Reports"",
+    ""LinkURL"": ""https://www.youtube.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""d1b75d0f-46b1-4b57-acb6-5948c921e119"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+    ""LinkName"": """",
+    ""LinkURL"": """"
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""8e27c1d9-a5a6-45e6-afc6-3a9f6c4169ee"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.medium.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""59319350-1441-4426-944d-fccefaa3f8cc"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.stackoverflow.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""4e2b0155-7cc2-4ef2-8f7a-0049cd464bab"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.weather.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""1da6b952-ea69-45e2-8fb1-16d788738a01"",
+    ""WeekNumber"": ""2"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.nytimes.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""f35bd89d-4532-4e83-af62-9db5451c1c9b"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: Budget submission in Finance tool by EOB Tuesday"",
+    ""LinkName"": ""Finance Manager"",
+    ""LinkURL"": ""https://www.spotify.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""81cfbb10-3e39-4c9c-98cd-5d88521b9d91"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.netflix.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""5407ceab-b1d1-49f0-98c0-b46024bb4243"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.ebay.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""4bd56064-5468-4047-9b9e-30c69bc5474d"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.pinterest.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""e6010b88-fbeb-4248-8efd-72af66f603e5"",
+    ""WeekNumber"": ""3"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.twitter.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""8ab14561-534a-4164-b9f5-d8cb7039da90"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+    ""LinkName"": ""Project Issues Tracker"",
+    ""LinkURL"": ""https://www.instagram.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""3fe24a57-644a-4183-b3a7-325b424b5f2a"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+    ""LinkName"": ""Document Filing Portal"",
+    ""LinkURL"": ""https://www.imdb.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""65b0c7a1-8794-4d42-8573-9604ec502b3b"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+    ""LinkName"": ""Document Management Portal"",
+    ""LinkURL"": ""https://www.cnn.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""950b9938-f041-4e2e-9b24-4ea592fadab0"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+    ""LinkName"": ""Internal Repository"",
+    ""LinkURL"": ""https://www.forbes.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""7129429d-6a01-46b9-a0b5-3eb0a357e5b8"",
+    ""WeekNumber"": ""4"",
+    ""TaskFocus"": ""Analytics dashboard update - report will be shared for any discrepancies"",
+    ""LinkName"": ""Analytics Dashboard"",
+    ""LinkURL"": ""https://www.nationalgeographic.com/""
+  },
+  {
+    ""@odata.etag"": """",
+    ""ItemInternalId"": ""1ee5dd68-0de2-4f71-880e-467880e4f65b"",
+    ""WeekNumber"": ""1"",
+    ""TaskFocus"": ""Monthly report review"",
+    ""LinkName"": ""Monthly Reports"",
+    ""LinkURL"": ""https://www.booking.com/""
+  }
+]","{
+  ""body"": [
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""b47de9ca-b693-4dea-aa35-63d63f280f52"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+      ""LinkName"": ""Project Issues Tracker"",
+      ""LinkURL"": ""https://www.wikipedia.org/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""5193bfc4-98f6-441c-a3aa-2a0898791406"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+      ""LinkName"": ""Document Filing Portal"",
+      ""LinkURL"": ""https://www.bbc.com/news""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""62b7f010-8c93-41be-b936-fb1aa17c0d29"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+      ""LinkName"": ""Document Management Portal"",
+      ""LinkURL"": ""https://www.reddit.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""02fc2010-3ef9-4d2a-9f61-d12c56f7c935"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+      ""LinkName"": ""Internal Repository"",
+      ""LinkURL"": ""https://www.amazon.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""3d697ea9-8551-415b-83df-3365de70646a"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+      ""LinkName"": ""Expense Reports"",
+      ""LinkURL"": ""https://www.youtube.com/""
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""d1b75d0f-46b1-4b57-acb6-5948c921e119"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+      ""LinkName"": """",
+      ""LinkURL"": """"
+    },
+    {
+      ""@odata.etag"": """",
+      ""ItemInternalId"": ""1ee5dd68-0de2-4f71-880e-467880e4f65b"",
+      ""WeekNumber"": ""1"",
+      ""TaskFocus"": ""Monthly report review"",
+      ""LinkName"": ""Monthly Reports"",
+      ""LinkURL"": ""https://www.booking.com/""
+    }
+  ]
+}","07/07/2026 11:16:14","07/07/2026 11:16:14","Succeeded",,"2026-07-06T11:16:17.0890675Z","2026-07-06T11:16:17.0890675Z","07/07/2026 11:16:17","07/07/2026 11:16:17","Succeeded",,"2026-07-10T11:16:17.0890675Z","2026-07-10T11:16:17.0890675Z","07/07/2026 11:16:17","07/07/2026 11:16:17","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/sharepointonline"",
+    ""connectionReferenceName"": ""shared_sharepointonline"",
+    ""operationId"": ""GetFileContent""
+  },
+  ""parameters"": {
+    ""dataset"": ""https://quintiles.sharepoint.com/sites/HAB75709"",
+    ""id"": ""%252fInternal%2buse%252f01%2bProject%2bManagement%252f01.11%2bTMF%2bReporting%252fProject_name_eTMF%2bFiling%2bGuideline_v3.0_29JAN2026%2b(2).xlsx"",
+    ""inferContentType"": true
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""max-age=0, private"",
+    ""Vary"": ""Origin"",
+    ""X-NetworkStatistics"": ""1,1048560,0,122,6267813,2204945,2204945,62959"",
+    ""X-SharePointHealthScore"": ""0"",
+    ""X-MS-SPConnector"": ""1"",
+    ""X-SP-SERVERSTATE"": ""ReadOnly=0"",
+    ""DATASERVICEVERSION"": ""3.0"",
+    ""SPClientServiceRequestDuration"": ""187"",
+    ""IsOCDI"": ""0"",
+    ""X-DataBoundary"": ""NONE"",
+    ""X-1DSCollectorUrl"": ""https://mobile.events.data.microsoft.com/OneCollector/1.0/"",
+    ""X-AriaCollectorURL"": ""https://browser.pipe.aria.microsoft.com/Collector/3.0/"",
+    ""SPRequestGuid"": ""ea994d4c-d9b8-47a2-b6aa-debfb5751198"",
+    ""request-id"": ""ea994d4c-d9b8-47a2-b6aa-debfb5751198"",
+    ""MS-CV"": ""oiTnffMgABDws2Sh2RnulQ.0"",
+    ""SPLogId"": ""7de724a2-20f3-1000-f0b3-64a1d919ee95"",
+    ""Alt-Svc"": ""h3=\"":443\"""",
+    ""Strict-Transport-Security"": ""max-age=31536000"",
+    ""X-Frame-Options"": ""SAMEORIGIN"",
+    ""Content-Security-Policy"": ""frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com teams.cloud.microsoft *.office365.com goals.cloud.microsoft *.powerapps.com *.powerbi.com *.yammer.com engage.cloud.microsoft word.cloud.microsoft excel.cloud.microsoft powerpoint.cloud.microsoft *.officeapps.live.com *.office.com *.microsoft365.com m365.cloud.microsoft *.cloud.microsoft *.stream.azure-test.net *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com teams.microsoft.com *.teams.microsoft.com securebroker.sharepointonline.com;"",
+    ""MicrosoftSharePointTeamServices"": ""16.0.0.27424"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-MS-InvokeApp"": ""1; RequireReadOnly"",
+    ""X-Cache"": ""CONFIG_NOCACHE"",
+    ""X-MSEdge-Ref"": ""Ref A: 7968D13F14274D5CAC8BAE74EE17CE2C Ref B: BY1AA1072320029 Ref C: 2026-07-07T11:16:17Z"",
+    ""P3P"": ""CP=\""ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"""",
+    ""X-AspNet-Version"": ""4.0.30319"",
+    ""X-Powered-By"": ""ASP.NET"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getfilecontent|False|2026-07-05T03:27:33.5257536+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:16:17 GMT"",
+    ""Content-Length"": ""202570"",
+    ""Content-Type"": ""application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"",
+    ""Expires"": ""Mon, 22 Jun 2026 11:16:17 GMT"",
+    ""Last-Modified"": ""Tue, 07 Jul 2026 11:16:17 GMT""
+  },
+  ""bodyContentLink"": {
+    ""uri"": ""https://prod-103.westus.logic.azure.com:443/workflows/60fce9efe6374e67a2189335aa2338ba/runs/08584181839119486666463294689CU169/actions/Get_file_content/contents/ActionOutputsBody?api-version=2017-07-01&se=2026-07-07T15%3A00%3A00.0000000Z&sp=%2Fruns%2F08584181839119486666463294689CU169%2Factions%2FGet_file_content%2Fcontents%2FActionOutputsBody%2Fread&sv=1.0&sig=4jjrCHBVU9QPeFDOfo8lxJYhlcflxYihm8sg31g2fjY"",
+    ""contentSize"": 270198
+  }
+}","07/07/2026 11:16:17","07/07/2026 11:16:18","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/excelonlinebusiness"",
+    ""connectionReferenceName"": ""shared_excelonlinebusiness-1"",
+    ""operationId"": ""GetItems""
+  },
+  ""parameters"": {
+    ""source"": ""me"",
+    ""drive"": ""b!4nirlhTr_0-lz5OZrpA922Dm5dsAJshEvr1IZS1m963uuLjsL89jRLVKVwANl8D5"",
+    ""file"": ""01FOFINRP5NU5WDOXQTVBI5IZ2PNP65Z7B"",
+    ""table"": ""{CFAE9363-AF83-47F5-948A-BEC30E1A269E}""
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""no-store, no-cache"",
+    ""Pragma"": ""no-cache"",
+    ""Transfer-Encoding"": ""chunked"",
+    ""Vary"": ""Accept-Encoding"",
+    ""Strict-Transport-Security"": ""max-age=31536000; includeSubDomains"",
+    ""x-ms-request-id"": ""7eeeba3c-2a0e-4841-a2d2-23f3cf56aeef;0d44eb63-3eca-4fbb-9727-787929ca6134;d0f98533-364d-406b-bee0-0bfbf7730fa3;044a0c8a-d1d8-40de-951c-c5360a1de1b3;935c6331-b14e-413c-9b29-0b6bc8793b91"",
+    ""OData-Version"": ""4.0"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-Frame-Options"": ""DENY"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getitems|False|2026-07-05T03:27:33.8068251+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""false"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:16:13 GMT"",
+    ""Content-Type"": ""application/json; odata.metadata=minimal; odata.streaming=true"",
+    ""Expires"": ""-1"",
+    ""Content-Length"": ""7652""
+  },
+  ""body"": {
+    ""@odata.context"": ""https://excelonline-cus.azconn-cus-001.p.azurewebsites.net/$metadata#drives('b%214nirlhTr_0-lz5OZrpA922Dm5dsAJshEvr1IZS1m963uuLjsL89jRLVKVwANl8D5')/Files('01FOFINRP5NU5WDOXQTVBI5IZ2PNP65Z7B')/Tables('%7BCFAE9363-AF83-47F5-948A-BEC30E1A269E%7D')/items"",
+    ""value"": [
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""b47de9ca-b693-4dea-aa35-63d63f280f52"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.wikipedia.org/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""5193bfc4-98f6-441c-a3aa-2a0898791406"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.bbc.com/news""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""62b7f010-8c93-41be-b936-fb1aa17c0d29"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.reddit.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""02fc2010-3ef9-4d2a-9f61-d12c56f7c935"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.amazon.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""3d697ea9-8551-415b-83df-3365de70646a"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""<b>Monthly expense report updates - submission by 5th business day of the month</b>"",
+        ""LinkName"": ""Expense Reports"",
+        ""LinkURL"": ""https://www.youtube.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""d1b75d0f-46b1-4b57-acb6-5948c921e119"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""Financial review ongoing for milestones and expenses - provide feedback by end of week"",
+        ""LinkName"": """",
+        ""LinkURL"": """"
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""8e27c1d9-a5a6-45e6-afc6-3a9f6c4169ee"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.medium.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""59319350-1441-4426-944d-fccefaa3f8cc"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.stackoverflow.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""4e2b0155-7cc2-4ef2-8f7a-0049cd464bab"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.weather.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""1da6b952-ea69-45e2-8fb1-16d788738a01"",
+        ""WeekNumber"": ""2"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.nytimes.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""f35bd89d-4532-4e83-af62-9db5451c1c9b"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: Budget submission in Finance tool by EOB Tuesday"",
+        ""LinkName"": ""Finance Manager"",
+        ""LinkURL"": ""https://www.spotify.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""81cfbb10-3e39-4c9c-98cd-5d88521b9d91"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.netflix.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""5407ceab-b1d1-49f0-98c0-b46024bb4243"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.ebay.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""4bd56064-5468-4047-9b9e-30c69bc5474d"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.pinterest.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""e6010b88-fbeb-4248-8efd-72af66f603e5"",
+        ""WeekNumber"": ""3"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.twitter.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""8ab14561-534a-4164-b9f5-d8cb7039da90"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<b>IMPORTANT</b>: <i>Please review the project dashboard and update status for all open items, pending reviews and approvals.</i> <b>All team members should follow documentation best practices, avoid duplicate entries, and ensure quality prior to submission</b>"",
+        ""LinkName"": ""Project Issues Tracker"",
+        ""LinkURL"": ""https://www.instagram.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""3fe24a57-644a-4183-b3a7-325b424b5f2a"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Please submit regular project documents, regional updates and approvals, relevant communications, meeting materials by end of the month. All documents must be filed within 5 business days from finalization.\n<b>Please note that internal file-sharing links should be reviewed before submission to external portals.</b></i>"",
+        ""LinkName"": ""Document Filing Portal"",
+        ""LinkURL"": ""https://www.imdb.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""65b0c7a1-8794-4d42-8573-9604ec502b3b"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Main portal to check document status, actions required and expected deliverables (<b>Please follow standard submission process</b>)</i>"",
+        ""LinkName"": ""Document Management Portal"",
+        ""LinkURL"": ""https://www.cnn.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""950b9938-f041-4e2e-9b24-4ea592fadab0"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""<i>Internal document repository for team access</i>"",
+        ""LinkName"": ""Internal Repository"",
+        ""LinkURL"": ""https://www.forbes.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""7129429d-6a01-46b9-a0b5-3eb0a357e5b8"",
+        ""WeekNumber"": ""4"",
+        ""TaskFocus"": ""Analytics dashboard update - report will be shared for any discrepancies"",
+        ""LinkName"": ""Analytics Dashboard"",
+        ""LinkURL"": ""https://www.nationalgeographic.com/""
+      },
+      {
+        ""@odata.etag"": """",
+        ""ItemInternalId"": ""1ee5dd68-0de2-4f71-880e-467880e4f65b"",
+        ""WeekNumber"": ""1"",
+        ""TaskFocus"": ""Monthly report review"",
+        ""LinkName"": ""Monthly Reports"",
+        ""LinkURL"": ""https://www.booking.com/""
+      }
+    ]
+  }
+}","07/07/2026 11:16:13","07/07/2026 11:16:14","Succeeded",,"{
+  ""host"": {
+    ""apiId"": ""subscriptions/490fcd9d-188d-41a1-8070-50e6300e47d7/providers/Microsoft.Web/locations/westus/runtimes/msmanaged-na/apis/sharepointonline"",
+    ""connectionReferenceName"": ""shared_sharepointonline"",
+    ""operationId"": ""GetFileContent""
+  },
+  ""parameters"": {
+    ""dataset"": ""https://quintiles.sharepoint.com/sites/HAB75709"",
+    ""id"": ""%252fInternal%2buse%252f01%2bProject%2bManagement%252f01.10%2beTraining%2bCompliance%252fReporting%252fProject_nameeTraining_Compliance_Report_July2026.xlsx"",
+    ""inferContentType"": true
+  }
+}","{
+  ""statusCode"": 200,
+  ""headers"": {
+    ""Cache-Control"": ""max-age=0, private"",
+    ""Vary"": ""Origin"",
+    ""X-NetworkStatistics"": ""0,1047173,0,505,6267785,11223053,11223053,66910"",
+    ""X-SharePointHealthScore"": ""1"",
+    ""X-MS-SPConnector"": ""1"",
+    ""X-SP-SERVERSTATE"": ""ReadOnly=0"",
+    ""DATASERVICEVERSION"": ""3.0"",
+    ""SPClientServiceRequestDuration"": ""212"",
+    ""IsOCDI"": ""0"",
+    ""X-DataBoundary"": ""NONE"",
+    ""X-1DSCollectorUrl"": ""https://mobile.events.data.microsoft.com/OneCollector/1.0/"",
+    ""X-AriaCollectorURL"": ""https://browser.pipe.aria.microsoft.com/Collector/3.0/"",
+    ""SPRequestGuid"": ""4b7b75c1-46af-4b13-a6dd-aed9f907519e"",
+    ""request-id"": ""4b7b75c1-46af-4b13-a6dd-aed9f907519e"",
+    ""MS-CV"": ""oiTnfgmgABDdsm6gNGEHYQ.0"",
+    ""SPLogId"": ""7ee724a2-a009-1000-ddb2-6ea034610761"",
+    ""Alt-Svc"": ""h3=\"":443\"""",
+    ""Strict-Transport-Security"": ""max-age=31536000"",
+    ""X-Frame-Options"": ""SAMEORIGIN"",
+    ""Content-Security-Policy"": ""frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com teams.cloud.microsoft *.office365.com goals.cloud.microsoft *.powerapps.com *.powerbi.com *.yammer.com engage.cloud.microsoft word.cloud.microsoft excel.cloud.microsoft powerpoint.cloud.microsoft *.officeapps.live.com *.office.com *.microsoft365.com m365.cloud.microsoft *.cloud.microsoft *.stream.azure-test.net *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com teams.microsoft.com *.teams.microsoft.com securebroker.sharepointonline.com;"",
+    ""MicrosoftSharePointTeamServices"": ""16.0.0.27424"",
+    ""X-Content-Type-Options"": ""nosniff"",
+    ""X-MS-InvokeApp"": ""1; RequireReadOnly"",
+    ""X-Cache"": ""CONFIG_NOCACHE"",
+    ""X-MSEdge-Ref"": ""Ref A: D967228674A04A379A26447B664A42EC Ref B: BY1AA1072320029 Ref C: 2026-07-07T11:16:18Z"",
+    ""P3P"": ""CP=\""ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"""",
+    ""X-AspNet-Version"": ""4.0.30319"",
+    ""X-Powered-By"": ""ASP.NET"",
+    ""x-ms-environment-id"": ""default-5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-tenant-id"": ""5989ece0-f90e-40bf-9c79-1a7beccdb861"",
+    ""x-ms-subscription-id"": ""490fcd9d-188d-41a1-8070-50e6300e47d7"",
+    ""x-ms-dlp-re"": ""getfilecontent|False|2026-07-05T03:27:33.5257536+00:00"",
+    ""x-ms-dlp-gu"": ""-|-"",
+    ""x-ms-dlp-ef"": ""-|-/-|-|-|-|-"",
+    ""x-ms-mip-sl"": ""-|-|-|-"",
+    ""x-ms-au-creator-id"": ""11912dce-251b-4a4f-a8b2-2139b61f6689"",
+    ""Timing-Allow-Origin"": ""*"",
+    ""x-ms-apihub-cached-response"": ""true"",
+    ""x-ms-apihub-obo"": ""false"",
+    ""Date"": ""Tue, 07 Jul 2026 11:16:17 GMT"",
+    ""Content-Length"": ""39662"",
+    ""Content-Type"": ""application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"",
+    ""Expires"": ""Mon, 22 Jun 2026 11:16:18 GMT"",
+    ""Last-Modified"": ""Tue, 07 Jul 2026 11:16:18 GMT""
+  },
+  ""bodyContentLink"": {
+    ""uri"": ""https://prod-103.westus.logic.azure.com:443/workflows/60fce9efe6374e67a2189335aa2338ba/runs/08584181839119486666463294689CU169/actions/Get_file_content__etraining/contents/ActionOutputsBody?api-version=2017-07-01&se=2026-07-07T15%3A00%3A00.0000000Z&sp=%2Fruns%2F08584181839119486666463294689CU169%2Factions%2FGet_file_content__etraining%2Fcontents%2FActionOutputsBody%2Fread&sv=1.0&sig=YteqPDZCL7p_yT37qbgfM_TjdAk44LttkVAVgrEeido"",
+    ""contentSize"": 52986
+  }
+}","07/07/2026 11:16:18","07/07/2026 11:16:18","Succeeded",,"","","07/07/2026 11:16:17","07/07/2026 11:16:17"
